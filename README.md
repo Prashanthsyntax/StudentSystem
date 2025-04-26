@@ -86,23 +86,23 @@ The application allows you to **Insert**, **Update**, **Delete**, and **View** s
 5. Compile and Run the Project:
     Compile and run the files using the following commands:
 
-    javac -cp ".;mysql-connector-java-8.0.22.jar" MainDashboard.java
-    java -cp ".;mysql-connector-java-8.0.22.jar" MainDashboard
+    javac -cp ".;mysql-connector-java-8.0.22.jar" MainDashboard.java <br>
+    java -cp ".;mysql-connector-java-8.0.22.jar" MainDashboard <br>
 
-   -> Insert Student:
+   -> Insert Student: <br>
         javac -cp ".;mysql-connector-java-8.0.22.jar" StudentInsert.java <br
         java -cp ".;mysql-connector-java-8.0.22.jar" StudentInsert <br>
-   -> Update Student:
+   -> Update Student: <br>
         javac -cp ".;mysql-connector-java-8.0.22.jar" StudentUpdateGUI.java <br>
         java -cp ".;mysql-connector-java-8.0.22.jar" StudentUpdateGUI <br>
 
    
-   -> Delete Student:
+   -> Delete Student: <br>
         javac -cp ".;mysql-connector-java-8.0.22.jar" StudentDeleteGUI.java <br>
         java -cp ".;mysql-connector-java-8.0.22.jar" StudentDeleteGUI <br>
 
    
-   -> View Students:
+   -> View Students: <br>
         javac -cp ".;mysql-connector-java-8.0.22.jar" StudentViewGUI.java <br>
         java -cp ".;mysql-connector-java-8.0.22.jar" StudentViewGUI <br>
    
