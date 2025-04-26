@@ -90,23 +90,21 @@ The application allows you to **Insert**, **Update**, **Delete**, and **View** s
     java -cp ".;mysql-connector-java-8.0.22.jar" MainDashboard
 
    -> Insert Student:
-        javac -cp ".;mysql-connector-java-8.0.22.jar" StudentInsert.java
-        java -cp ".;mysql-connector-java-8.0.22.jar" StudentInsert
-
-   
+        javac -cp ".;mysql-connector-java-8.0.22.jar" StudentInsert.java <br
+        java -cp ".;mysql-connector-java-8.0.22.jar" StudentInsert <br>
    -> Update Student:
-        javac -cp ".;mysql-connector-java-8.0.22.jar" StudentUpdateGUI.java
-        java -cp ".;mysql-connector-java-8.0.22.jar" StudentUpdateGUI
+        javac -cp ".;mysql-connector-java-8.0.22.jar" StudentUpdateGUI.java <br>
+        java -cp ".;mysql-connector-java-8.0.22.jar" StudentUpdateGUI <br>
 
    
    -> Delete Student:
-        javac -cp ".;mysql-connector-java-8.0.22.jar" StudentDeleteGUI.java
-        java -cp ".;mysql-connector-java-8.0.22.jar" StudentDeleteGUI
+        javac -cp ".;mysql-connector-java-8.0.22.jar" StudentDeleteGUI.java <br>
+        java -cp ".;mysql-connector-java-8.0.22.jar" StudentDeleteGUI <br>
 
    
    -> View Students:
-        javac -cp ".;mysql-connector-java-8.0.22.jar" StudentViewGUI.java
-        java -cp ".;mysql-connector-java-8.0.22.jar" StudentViewGUI
+        javac -cp ".;mysql-connector-java-8.0.22.jar" StudentViewGUI.java <br>
+        java -cp ".;mysql-connector-java-8.0.22.jar" StudentViewGUI <br>
    
 
 ### Database Setup
