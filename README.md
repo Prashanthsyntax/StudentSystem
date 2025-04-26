@@ -28,7 +28,8 @@ The application allows you to **Insert**, **Update**, **Delete**, and **View** s
 > Main dashboard with navigation options.
 <br>
 
-![Home Screen](./Screenshot%202025-04-20%20143956.png)
+![Screenshot 2025-04-20 143956](https://github.com/user-attachments/assets/533b3646-f2cc-428b-84ca-eea653b3ac8b)
+
 
 ---
 
@@ -36,7 +37,8 @@ The application allows you to **Insert**, **Update**, **Delete**, and **View** s
 > Add a new student's ID, Name, Email, and Course.
 <br>
 
-![Insert Student](./Screenshot%202025-04-20%20144008.png)
+![Screenshot 2025-04-20 144008](https://github.com/user-attachments/assets/d086e4fc-e57f-487d-814c-2998f91aff89)
+
 
 ---
 
@@ -44,7 +46,8 @@ The application allows you to **Insert**, **Update**, **Delete**, and **View** s
 > Update an existing student's details using their ID.
 <br>
 
-![Update Student](./Screenshot%202025-04-20%20144035.png)
+![Screenshot 2025-04-20 144035](https://github.com/user-attachments/assets/07c86336-def7-47e2-8270-fcb291c5c96c)
+
 
 ---
 
@@ -52,7 +55,8 @@ The application allows you to **Insert**, **Update**, **Delete**, and **View** s
 > Delete a student record by entering their Student ID.
 <br>
 
-![Delete Student](./Screenshot%202025-04-20%20144047.png)
+![Screenshot 2025-04-20 144047](https://github.com/user-attachments/assets/44575cc9-02f4-4c00-8d05-4637f0369791)
+
 
 ---
 
@@ -65,37 +69,38 @@ The application allows you to **Insert**, **Update**, **Delete**, and **View** s
 | MySQL       | Database                         |
 | JDBC        | Database Connectivity            |
 
----
-
-## 🗂️ Project Structure
-
-```
-StudentManagementSystem/
-├── src/
-│   ├── Main.java
-│   ├── InsertStudentForm.java
-│   ├── UpdateStudentForm.java
-│   ├── DeleteStudentForm.java
-│   └── ViewStudentsForm.java
-├── database/
-│   └── StudentDB.java
-├── Screenshots/
-│   ├── Home Screen.png
-│   ├── Insert Student.png
-│   ├── Update Student.png
-│   └── Delete Student.png
-├── README.md
-└── assets/
-```
 
 ---
 
 ## ⚙️ How to Run the Project
 
-1. **Install Java JDK** (8 or higher).
-2. **Install MySQL Server** and create the required database and table.
-3. **Configure Database Credentials** in `StudentDB.java`.
-4. **Compile and Run** using any Java IDE (e.g., IntelliJ IDEA, Eclipse).
+1. Install Java JDK (8 or higher).
+2. Install MySQL Server and create the required database and table.
+3. Clone the Repository:
+    git clone <repository-url>
+
+4. Place MySQL Connector JAR:
+     -> Download mysql-connector-java-8.0.22.jar.
+     -> Place it in your project directory.
+
+5. Compile and Run the Project:
+    Compile and run the files using the following commands:
+
+    javac -cp ".;mysql-connector-java-8.0.22.jar" MainDashboard.java
+    java -cp ".;mysql-connector-java-8.0.22.jar" MainDashboard
+
+   -> Insert Student:
+        javac -cp ".;mysql-connector-java-8.0.22.jar" StudentInsert.java
+        java -cp ".;mysql-connector-java-8.0.22.jar" StudentInsert
+   -> Update Student:
+        javac -cp ".;mysql-connector-java-8.0.22.jar" StudentUpdateGUI.java
+        java -cp ".;mysql-connector-java-8.0.22.jar" StudentUpdateGUI
+   -> Delete Student:
+        javac -cp ".;mysql-connector-java-8.0.22.jar" StudentDeleteGUI.java
+        java -cp ".;mysql-connector-java-8.0.22.jar" StudentDeleteGUI
+   -> View Students:
+        javac -cp ".;mysql-connector-java-8.0.22.jar" StudentViewGUI.java
+        java -cp ".;mysql-connector-java-8.0.22.jar" StudentViewGUI
 
 ### Database Setup
 
@@ -129,8 +134,8 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ## 📬 Contact
 
-- **Developer:** Prashanth
-- **Email:** [YourEmail@example.com]
+- **Developer:** Pendem Prashanth
+- **Email:** prashanthpendem2323@gmail.com
 
 ---
 
