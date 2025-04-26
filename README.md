@@ -92,15 +92,22 @@ The application allows you to **Insert**, **Update**, **Delete**, and **View** s
    -> Insert Student:
         javac -cp ".;mysql-connector-java-8.0.22.jar" StudentInsert.java
         java -cp ".;mysql-connector-java-8.0.22.jar" StudentInsert
+
+   
    -> Update Student:
         javac -cp ".;mysql-connector-java-8.0.22.jar" StudentUpdateGUI.java
         java -cp ".;mysql-connector-java-8.0.22.jar" StudentUpdateGUI
+
+   
    -> Delete Student:
         javac -cp ".;mysql-connector-java-8.0.22.jar" StudentDeleteGUI.java
         java -cp ".;mysql-connector-java-8.0.22.jar" StudentDeleteGUI
+
+   
    -> View Students:
         javac -cp ".;mysql-connector-java-8.0.22.jar" StudentViewGUI.java
         java -cp ".;mysql-connector-java-8.0.22.jar" StudentViewGUI
+   
 
 ### Database Setup
 
