@@ -90,7 +90,7 @@ The application allows you to **Insert**, **Update**, **Delete**, and **View** s
     java -cp ".;mysql-connector-java-8.0.22.jar" MainDashboard <br>
 
    -> Insert Student: <br>
-        javac -cp ".;mysql-connector-java-8.0.22.jar" StudentInsert.java <br
+        javac -cp ".;mysql-connector-java-8.0.22.jar" StudentInsert.java <br>
         java -cp ".;mysql-connector-java-8.0.22.jar" StudentInsert <br>
    -> Update Student: <br>
         javac -cp ".;mysql-connector-java-8.0.22.jar" StudentUpdateGUI.java <br>
